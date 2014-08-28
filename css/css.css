@@ -85,6 +85,7 @@
     border-right: 6px transparent solid;
     z-index: 2;
 }
+
 .rostoAmarela3 {
     width: 93px;
     position: absolute;
@@ -93,6 +94,26 @@
     border-top: 80px #af8c3c solid;
     border-left: 40px transparent solid;
     border-right: 40px transparent solid;
+    z-index: 2;
+}
+.rostoAmarela4 {
+    width: 93px;
+    position: absolute;
+    left: 48px;
+    top: 267px;
+    border-bottom: 13px #af8c3c solid;
+    border-left: 4px transparent solid;
+    border-right: 4px transparent solid;
+    z-index: 2;
+}
+.rostoAmarela5 {
+    width: 81px;
+    position: absolute;
+    left: 48px;
+    top: 280px;
+    border-top: 20px #af8c3c solid;
+    border-left: 10px transparent solid;
+    border-right: 10px transparent solid;
     z-index: 2;
 }
 .rosto1 {
