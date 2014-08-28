@@ -1,9 +1,17 @@
 .iron-man {
     width: 500px;
     height: 600px;
-    margin: 0 auto;
+    float: left;
 }
+.ref {
+    width: 500px;
+    height: 600px;
+    float: right;
+}
+.ref img {
+    width: 100%;
 
+}
 .head {
     width: 100%;
     height: 100%;
@@ -16,6 +24,23 @@
      border-radius: 50% 50% 0% 0%;
      position: absolute;
      top: 0px;
+}
+.testaAmarela {
+    width: 90%;
+    height: 50%;
+    background: yellow;
+    border-radius: 50% 50% 0% 0%;
+    position: absolute;
+    top: 105px;
+    left: 25px;
+}
+.meiovermelho{
+    background: #571213;
+    width: 20%;
+    border-bottom: 100px solid #571213;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+
 }
 .queixo {
     width: 100%;
