@@ -1,4 +1,4 @@
-.iron-man {
+.iron-man-head {
     width: 200px;
     height: 324px;
     float: left;
@@ -1365,15 +1365,16 @@ box-shadow: 0 0px 0 rgba(0,0,0,.5), 19px -14px 40px rgba(245,241,224,1), -10px -
     -ms-transform: rotate(43deg);
 }
 .ref {
-    width: 200px;
+    width: 477px;
     height: 485px;
     float: left;
     margin: 0 10px;
     position: absolute;
     z-index: 1000;
-    left: 200px;
+    left: -118px;
+    top: -8px;
 }
 .ref img {
     width: 100%;
-    opacity: 1;
+    opacity: 0.5;
 }
