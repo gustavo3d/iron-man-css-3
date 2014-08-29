@@ -184,6 +184,9 @@
     height: 10px;
     background: #571213;
     transform: rotate(-14deg);
+    -webkit-transform: rotate(-14deg);
+    -moz-transform: rotate(-14deg);
+    -ms-transform: rotate(-14deg);
 }
 
 .queixoDetail4 {
@@ -195,6 +198,9 @@
     height: 10px;
     background: #571213;
     transform: rotate(14deg);
+    -webkit-transform: rotate(14deg);
+    -moz-transform: rotate(14deg);
+    -ms-transform: rotate(14deg);
 }
 .queixoRadius {
     width: 80px;
@@ -216,10 +222,13 @@
     top: 175px;
     left: 27px;
     z-index: 8;
-    transform: rotate(18deg);
     border-left: 11px transparent solid;
     border-right: 0px transparent solid;
     border-top: 12px #fff solid;
+    transform: rotate(18deg);
+    -webkit-transform: rotate(18deg);
+    -moz-transform: rotate(18deg);
+    -ms-transform: rotate(18deg);
 }
 .eyeRradius {
     width: 37px;
@@ -228,8 +237,11 @@
     background: #fff;
     position: absolute;
     top: -7px;
-    transform: rotate(-10deg);
     left: -1px;
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
 }
 .eyeRradius2 {
     width: 37px;
@@ -238,8 +250,11 @@
     background: #fff;
     position: absolute;
     top: -13px;
-    transform: rotate(-6deg);
     left: 6px;
+    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
 }
 .eyeRShadow {
     width: 38px;
@@ -247,10 +262,13 @@
     top: 177px;
     left: 28px;
     z-index: 7;
-    transform: rotate(18deg);
     border-left: 11px transparent solid;
     border-right: 0px transparent solid;
     border-top: 12px #000 solid;
+    transform: rotate(18deg);
+    -webkit-transform: rotate(18deg);
+    -moz-transform: rotate(18deg);
+    -ms-transform: rotate(18deg);
 }
 .eyeRradiusShadow {
     width: 37px;
@@ -259,8 +277,11 @@
     background: #000;
     position: absolute;
     top: -7px;
-    transform: rotate(-10deg);
     left: -1px;
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
 }
 .eyeRradius2Shadow {
     width: 37px;
@@ -269,8 +290,11 @@
     background: #000;
     position: absolute;
     top: -13px;
-    transform: rotate(-6deg);
     left: 6px;
+    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
 }
 .eyeL {
     width: 38px;
@@ -278,10 +302,13 @@
     top: 175px;
     right: 27px;
     z-index: 8;
-    transform: rotate(-18deg);
     border-left: 0px transparent solid;
     border-right: 11px transparent solid;
     border-top: 12px #fff solid;
+    transform: rotate(-18deg);
+    -webkit-transform: rotate(-18deg);
+    -moz-transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
 }
 .eyeLradius {
     width: 37px;
@@ -290,8 +317,11 @@
     background: #fff;
     position: absolute;
     top: -7px;
-    transform: rotate(10deg);
     right: -1px;
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
 }
 .eyeLradius2 {
     width: 37px;
@@ -300,8 +330,11 @@
     background: #fff;
     position: absolute;
     top: -13px;
-    transform: rotate(6deg);
     right: 6px;
+    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
 }
 .eyeLShadow {
     width: 38px;
@@ -309,10 +342,13 @@
     top: 177px;
     right: 28px;
     z-index: 7;
-    transform: rotate(-18deg);
     border-left: 0px transparent solid;
     border-right: 11px transparent solid;
     border-top: 12px #000 solid;
+    transform: rotate(-18deg);
+    -webkit-transform: rotate(-18deg);
+    -moz-transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
 }
 .eyeLradiusShadow {
     width: 37px;
@@ -321,8 +357,11 @@
     background: #000;
     position: absolute;
     top: -7px;
-    transform: rotate(10deg);
     right: -1px;
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
 }
 .eyeLradius2Shadow {
     width: 37px;
@@ -331,8 +370,11 @@
     background: #000;
     position: absolute;
     top: -13px;
-    transform: rotate(6deg);
     right: 6px;
+    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
 }
 .eyeDetailFace {
     background: #fff;
@@ -385,6 +427,9 @@
     width: 100px;
     height: 100px;
     background: radial-gradient(ellipse at center, rgba(104,73,29,0.5) 0%,rgba(106,75,31,0.5) 1%,rgba(255,255,255,0) 80%);
+    background: -webkit-radial-gradient(ellipse at center, rgba(104,73,29,0.5) 0%,rgba(106,75,31,0.5) 1%,rgba(255,255,255,0) 80%);
+    background: -o-radial-gradient(ellipse at center, rgba(104,73,29,0.5) 0%,rgba(106,75,31,0.5) 1%,rgba(255,255,255,0) 80%);
+    background: -moz-radial-gradient(ellipse at center, rgba(104,73,29,0.5) 0%,rgba(106,75,31,0.5) 1%,rgba(255,255,255,0) 80%);
     position: absolute;
     top: 100px;
     left: 40px;
@@ -394,11 +439,14 @@
     width: 100px;
     height: 100px;
     background: radial-gradient(ellipse at center, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 1%,rgba(255,255,255,0) 80%);
+    background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 1%,rgba(255,255,255,0) 80%);
+    background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 1%,rgba(255,255,255,0) 80%);
+    background: -moz-radial-gradient(ellipse at center, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 1%,rgba(255,255,255,0) 80%);
     position: absolute;
     top: 100px;
     left: 40px;
     z-index: 3;
-} 
+}
 .eyeDetailFace4 {
     background: #BEA74B;
     width: 120px;
@@ -414,48 +462,63 @@
 .lineMouthL {
     width: 22px;
     border-top: 2px #000 solid;
-    transform: rotate(58deg);
     position: absolute;
     top: 274px;
     left: 47px;
     z-index: 5;
+    transform: rotate(58deg);
+    -webkit-transform: rotate(58deg);
+    -moz-transform: rotate(58deg);
+    -ms-transform: rotate(58deg);
 }
 .lineMouthL2 {
     width: 12px;
     border-top: 2px #000 solid;
-    transform: rotate(-50deg);
     position: absolute;
     top: 278px;
     left: 61px;
     z-index: 5;
+    transform: rotate(-50deg);
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
 }
 .lineMouthC {
     width: 60px;
     border-top: 2px #000 solid;
-    transform: rotate(0deg);
     position: absolute;
     top: 274px;
     left: 70px;
     z-index: 5;
-    /* box-shadow: 0px 5px 1px #888888; */
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
 }
+
 .lineMouthR {
     width: 22px;
     border-top: 2px #000 solid;
-    transform: rotate(-58deg);
     position: absolute;
     top: 274px;
     right: 47px;
     z-index: 5;
+    transform: rotate(-58deg);
+    -webkit-transform: rotate(-58deg);
+    -moz-transform: rotate(-58deg);
+    -ms-transform: rotate(-58deg);
 }
 .lineMouthR2 {
     width: 12px;
     border-top: 2px #000 solid;
-    transform: rotate(50deg);
     position: absolute;
     top: 278px;
     right: 61px;
     z-index: 5;
+    transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    -moz-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
 }
 /* .queixoLight {
     width: 40px;
@@ -479,9 +542,13 @@
     border-left: 35px transparent solid;
     border-right: 0px transparent solid;
     border-top: 2px #fff solid;
-    transform: rotate(256deg);
     opacity: 0.2;
+    transform: rotate(256deg);
+    -webkit-transform: rotate(256deg);
+    -moz-transform: rotate(256deg);
+    -ms-transform: rotate(256deg);
 }
+
 .queixoCtWhiteLight {
     width: 50px;
     height: 2px;
@@ -489,8 +556,14 @@
     top: 276px;
     left: 75px;
     z-index: 5;
-    transform: rotate(0deg);
     opacity: 0.3;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    background: -webkit-linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 49%,rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 49%,rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 49%,rgba(255,255,255,0) 100%);
     background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 49%,rgba(255,255,255,0) 100%);
 }
 .queixoCbWhiteLight {
@@ -500,8 +573,14 @@
     top: 306px;
     left: 80px;
     z-index: 5;
-    transform: rotate(0deg);
     opacity: 0.2;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    background: -webkit-linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 49%,rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 49%,rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 49%,rgba(255,255,255,0) 100%);
     background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 49%,rgba(255,255,255,0) 100%);
 }
 .queixoRWhiteLight {
@@ -514,8 +593,11 @@
     border-left: 0px transparent solid;
     border-right: 35px transparent solid;
     border-top: 2px #fff solid;
-    transform: rotate(-256deg);
     opacity: 0.2;
+    transform: rotate(-256deg);
+    -webkit-transform: rotate(-256deg);
+    -moz-transform: rotate(-256deg);
+    -ms-transform: rotate(-256deg);
 }
 .faceLight1 {
     width: 50px;
@@ -571,28 +653,43 @@
     z-index: 12;
     opacity: 0.1;
     transform: skewX(-14deg);
+    -webkit-transform: skewX(-14deg);
+    -moz-transform: skewX(-14deg);
+    -ms-transform: skewX(-14deg);
 }
 .bochecaLlight {
     width: 36px;
     height: 33px;
+    background: -webkit-linear-gradient(to right, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 16%,rgba(255,255,255,0) 80%);
+    background: -o-linear-gradient(to right, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 16%,rgba(255,255,255,0) 80%);
+    background: -moz-linear-gradient(to right, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 16%,rgba(255,255,255,0) 80%);
     background: linear-gradient(to right, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 16%,rgba(255,255,255,0) 80%);
     position: absolute;
     top: 246px;
     left: 19px;
-    transform: skewY(64deg) rotate(-7deg);
     z-index: 6;
     opacity: 0.5;
+    transform: skewY(64deg) rotate(-7deg);
+    -webkit-transform: skewY(64deg) rotate(-7deg);
+    -moz-transform: skewY(64deg) rotate(-7deg);
+    -ms-transform: skewY(64deg) rotate(-7deg);
 }
 .bochecaRlight {
     width: 36px;
     height: 33px;
+    background: -webkit-linear-gradient(to left, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 16%,rgba(255,255,255,0) 80%);
+    background: -o-linear-gradient(to left, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 16%,rgba(255,255,255,0) 80%);
+    background: -moz-linear-gradient(to left, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 16%,rgba(255,255,255,0) 80%);
     background: linear-gradient(to left, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 16%,rgba(255,255,255,0) 80%);
     position: absolute;
     top: 246px;
     right: 22px;
-    transform: skewY(-64deg) rotate(7deg);
     z-index: 6;
     opacity: 0.5;
+    transform: skewY(-64deg) rotate(7deg);
+    -webkit-transform: skewY(-64deg) rotate(7deg);
+    -moz-transform: skewY(-64deg) rotate(7deg);
+    -ms-transform: skewY(-64deg) rotate(7deg);
 }
 .ref {
     width: 200px;
