@@ -139,23 +139,7 @@
     left: 12px;
     z-index: 1;
 }
-.testaAmarela {
-    width: 90%;
-    height: 50%;
-    background: yellow;
-    border-radius: 50% 50% 0% 0%;
-    position: absolute;
-    top: 105px;
-    left: 25px;
-}
-.meiovermelho{
-    background: #571213;
-    width: 20%;
-    border-bottom: 100px solid #571213;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
 
-}
 .queixo {
     width: 82px;
     position: absolute;
@@ -165,6 +149,72 @@
     border-right: 44px transparent solid;
     left: 14px;
     z-index: 1;
+}
+.eyes {
+    width: 100%;
+    position: relative;
+}
+.eyeR {
+    width: 38px;
+    position: absolute;
+    top: 175px;
+    left: 27px;
+    z-index: 4;
+    transform: rotate(18deg);
+    border-left: 11px transparent solid;
+    border-right: 0px transparent solid;
+    border-top: 12px #fff solid;
+}
+.eyeRradius {
+    width: 37px;
+    height: 10px;
+    border-radius: 0px 0px 0px 23px;
+    background: #fff;
+    position: absolute;
+    top: -7px;
+    transform: rotate(-10deg);
+    left: -1px;
+}
+.eyeRradius2 {
+    width: 37px;
+    height: 14px;
+    border-radius: 0px 14px 17px 0px;
+    background: #fff;
+    position: absolute;
+    top: -13px;
+    transform: rotate(-6deg);
+    left: 6px;
+}
+.eyeL {
+    width: 38px;
+    position: absolute;
+    top: 175px;
+    right: 27px;
+    z-index: 4;
+    transform: rotate(-18deg);
+    border-left: 0px transparent solid;
+    border-right: 11px transparent solid;
+    border-top: 12px #fff solid;
+}
+.eyeLradius {
+    width: 37px;
+    height: 10px;
+    border-radius: 0px 0px 23px 0px;
+    background: #fff;
+    position: absolute;
+    top: -7px;
+    transform: rotate(10deg);
+    right: -1px;
+}
+.eyeLradius2 {
+    width: 37px;
+    height: 14px;
+    border-radius: 14px 0px 0px 17px;
+    background: #fff;
+    position: absolute;
+    top: -13px;
+    transform: rotate(6deg);
+    right: 6px;
 }
 .ref {
     width: 200px;
