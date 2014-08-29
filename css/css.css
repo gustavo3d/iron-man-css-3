@@ -16,7 +16,7 @@
     height: 100%;
     position: relative;
 }
-.orelhaL {
+.earL {
     width: 35px;
     height: 78px;
     border-radius: 50%;
@@ -29,7 +29,7 @@
     left: 0px;
     overflow: hidden;
 }
-.orelhaShadow {
+.earShadow {
     width: 5px;
     height: 80px;
     position: absolute;
@@ -37,7 +37,7 @@
     background: #000;
     box-shadow: 0px 1px 5px #000;
 }
-.orelhaShadow2 {
+.earShadow2 {
     width: 5px;
     height: 80px;
     position: absolute;
@@ -45,7 +45,7 @@
     background: #000;
     box-shadow: 0px 1px 5px #000;
 }
-.orelhaR {
+.earR {
     width: 35px;
     height: 78px;
     border-radius: 50%;
@@ -58,7 +58,7 @@
     right: 4px;
     overflow: hidden;
 }
-.testa {
+.Forehead {
     width: 176px;
     height: 105px;
      background: #571213;
@@ -68,7 +68,7 @@
      z-index: 1;
     left: 10px;
 }
-.testaDetailL {
+.ForeheadDetailL {
     width: 2px;
     height: 20px;
     background: #401213;
@@ -82,7 +82,7 @@
     -mo-transform: rotate(-10deg);
     box-shadow: 1px 0px 2px #995A5B;
 }
-.testaDetailR {
+.ForeheadDetailR {
     width: 2px;
     height: 20px;
     background: #401213;
@@ -96,7 +96,7 @@
     -mo-transform: rotate(10deg);
     box-shadow: 1px 0px 2px #995A5B;
 }
-.testaDetailBigC {
+.ForeheadDetailBigC {
     width: 64px;
     height: 5px;
     background: #401213;
@@ -108,7 +108,7 @@
 
 }
 
-.testaDetailBigLyellow {
+.ForeheadDetailBigLyellow {
     width: 20px;
     height: 11px;
     background: #D3BA54;
@@ -121,7 +121,7 @@
     -moz-transform: rotate(-3deg);
     -mo-transform: rotate(-3deg);
 }
-.testaDetailBigRyellow {
+.ForeheadDetailBigRyellow {
     width: 20px;
     height: 11px;
     background: #D3BA54;
@@ -134,7 +134,7 @@
     -moz-transform: rotate(3deg);
     -mo-transform: rotate(3deg);
 }
-.testaDetailBig1C {
+.ForeheadDetailBig1C {
     width: 2px;
     height: 64px;
     background: #401213;
@@ -143,7 +143,7 @@
     left: 76px;
     z-index: 5;
 }
-.testaDetailBig2C {
+.ForeheadDetailBig2C {
     width: 2px;
     height: 64px;
     background: #401213;
@@ -153,7 +153,7 @@
     z-index: 5;
     box-shadow: -1px 0px 2px #7E2627;
 }
-.testaDetailBigL {
+.ForeheadDetailBigL {
     width: 2px;
     height: 40px;
     background: #401213;
@@ -167,7 +167,7 @@
     -mo-transform: rotate(-5deg);
     box-shadow: 1px 0px 2px #995A5B;
 }
-.testaDetailBig2L {
+.ForeheadDetailBig2L {
     width: 2px;
     height: 40px;
     background: #571213;
@@ -180,7 +180,7 @@
     -moz-transform: rotate(-5deg);
     -mo-transform: rotate(-5deg);
 }
-.testaDetailBig3L {
+.ForeheadDetailBig3L {
     width: 15px;
     height: 34px;
     background: #571213;
@@ -193,7 +193,7 @@
     -moz-transform: rotate(-8deg);
     -mo-transform: rotate(-8deg);
 }
-.testaDetailBigR {
+.ForeheadDetailBigR {
     width: 2px;
     height: 40px;
     background: #401213;
@@ -207,7 +207,7 @@
     -mo-transform: rotate(5deg);
     box-shadow: -1px 0px 2px #995A5B;
 }
-.testaDetailBig2R {
+.ForeheadDetailBig2R {
     width: 2px;
     height: 40px;
     background: #571213;
@@ -220,7 +220,7 @@
     -moz-transform: rotate(5deg);
     -mo-transform: rotate(5deg);
 }
-.testaDetailBig3R {
+.ForeheadDetailBig3R {
     width: 15px;
     height: 34px;
     background: #571213;
@@ -233,7 +233,7 @@
     -moz-transform: rotate(8deg);
     -mo-transform: rotate(8deg);
 }
-.testaRadiusShadow {
+.ForeheadRadiusShadow {
     width: 80px;
     position: absolute;
     top: 4px;
@@ -243,7 +243,7 @@
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.3)), color-stop(80%,rgba(255,255,255,0)));
     border-radius: 50% /20%;
 }
-.testa21 {
+.Forehead21 {
     position: absolute;
     top: 4px;
     left: 65px;
@@ -253,7 +253,7 @@
     border-bottom: 0px transparent solid;
     width: 25px;
 }
-.testa22 {
+.Forehead22 {
     position: absolute;
     top: 4px;
     left: 100px;
@@ -263,7 +263,7 @@
     border-bottom: 0px transparent solid;
     width: 25px;
 }
-.testaTriangulo {
+.ForeheadTriangle {
     width: 0;
     height: 0;
     border-left: 25px solid transparent;
@@ -274,7 +274,7 @@
     left: 75px;
     z-index: 3;
 }
-.testaAmarela {
+.ForeheadYellow {
     width: 159px;
     height: 60px;
     background: #D3BA54;
@@ -285,7 +285,7 @@
     z-index: 2;
     overflow: hidden;
 }
-.rostoAmarela1 {
+.faceYellow1 {
     width: 159px;
     height: 50px;
     background: #D3BA54;
@@ -295,7 +295,7 @@
     z-index: 2;
     overflow: hidden;
 }
-.rostoAmarela2 {
+.faceYellow2 {
     width: 159px;
     position: absolute;
     left: 12px;
@@ -307,7 +307,7 @@
     overflow: hidden;
 }
 
-.rostoAmarela3 {
+.faceYellow3 {
     width: 93px;
     position: absolute;
     left: 12px;
@@ -318,7 +318,7 @@
     z-index: 2;
     overflow: hidden;
 }
-.rostoAmarela4 {
+.faceYellow4 {
     width: 93px;
     position: absolute;
     left: 48px;
@@ -329,7 +329,7 @@
     z-index: 2;
     overflow: hidden;
 }
-.rostoAmarela5 {
+.faceYellow5 {
     width: 81px;
     position: absolute;
     left: 48px;
@@ -340,7 +340,7 @@
     z-index: 2;
     overflow: hidden;
 }
-.rosto1 {
+.face1 {
     width: 172px;
     height: 0;
     position: absolute;
@@ -351,7 +351,7 @@
     left: 10px;
     z-index: 1;
 }
-.rosto2 {
+.face2 {
     width: 168px;
     height: 0;
     position: absolute;
@@ -363,7 +363,7 @@
     z-index: 1;
 }
 
-.queixo {
+.Chin {
     width: 80px;
     position: absolute;
     top: 255px;
@@ -373,7 +373,7 @@
     left: 14px;
     z-index: 1;
 }
-.queixoDetail {
+.ChinDetail {
     width: 51px;
     position: absolute;
     top: 296px;
@@ -382,7 +382,7 @@
     height: 15px;
     background: #571213;
 }
-.queixoDetail2 {
+.ChinDetail2 {
     width: 14px;
     position: absolute;
     top: 293px;
@@ -392,7 +392,7 @@
     border-left: 2px transparent solid;
     border-right: 2px transparent solid;
 }
-.queixoDetail3 {
+.ChinDetail3 {
     width: 20px;
     position: absolute;
     top: 298px;
@@ -406,7 +406,7 @@
     -ms-transform: rotate(-14deg);
 }
 
-.queixoDetail4 {
+.ChinDetail4 {
     width: 10px;
     position: absolute;
     top: 281px;
@@ -419,7 +419,7 @@
     -moz-transform: rotate(-26deg);
     -ms-transform: rotate(-26deg);
 }
-.queixoDetail7 {
+.ChinDetail7 {
     width: 19px;
     position: absolute;
     top: 226px;
@@ -432,7 +432,7 @@
     -moz-transform: rotate(-26deg);
     -ms-transform: rotate(-26deg);
 }
-.queixoDetail8 {
+.ChinDetail8 {
     width: 17px;
     position: absolute;
     top: 226px;
@@ -445,7 +445,7 @@
     -moz-transform: rotate(26deg);
     -ms-transform: rotate(26deg);
 }
-.queixoDetail5 {
+.ChinDetail5 {
     width: 20px;
     position: absolute;
     top: 298px;
@@ -458,7 +458,7 @@
     -moz-transform: rotate(14deg);
     -ms-transform: rotate(14deg);
 }
-.queixoDetail6 {
+.ChinDetail6 {
     width: 10px;
     position: absolute;
     top: 281px;
@@ -471,7 +471,7 @@
     -moz-transform: rotate(27deg);
     -ms-transform: rotate(27deg);
 }
-.queixoRadius {
+.ChinRadius {
     width: 80px;
     position: absolute;
     top: 309px;
@@ -481,7 +481,7 @@
     background: #571213;
     border-radius: 50% /42%;
 }
-.queixoRadiusShadow {
+.ChinRadiusShadow {
     width: 80px;
     position: absolute;
     top: 309px;
@@ -702,7 +702,7 @@
     opacity: 1;
 
 }
-.rostoLight {
+.faceLight {
     width: 100px;
     height: 100px;
     background: radial-gradient(ellipse at center, rgba(104,73,29,0.5) 0%,rgba(106,75,31,0.5) 1%,rgba(255,255,255,0) 80%);
@@ -714,7 +714,7 @@
     left: 40px;
     z-index: 3;
 }
-.rostoLight1 {
+.faceLight1 {
     width: 100px;
     height: 100px;
     background: radial-gradient(ellipse at center, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 1%,rgba(255,255,255,0) 80%);
@@ -799,7 +799,7 @@
     -moz-transform: rotate(50deg);
     -ms-transform: rotate(50deg);
 }
-/* .queixoLight {
+/* .ChinLight {
     width: 40px;
     border-top: 30px transparent solid;
     border-left: 8px transparent solid;
@@ -811,7 +811,7 @@
     overflow: hidden;
      box-shadow: 0px 5px 1px #888888 ;
 } */
-.queixoLWhiteLight {
+.ChinLWhiteLight {
     width: 0px;
     height: 0px;
     position: absolute;
@@ -828,7 +828,7 @@
     -ms-transform: rotate(256deg);
 }
 
-.queixoCtWhiteLight {
+.ChinCtWhiteLight {
     width: 50px;
     height: 2px;
     position: absolute;
@@ -845,7 +845,7 @@
     background: -moz-linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 49%,rgba(255,255,255,0) 100%);
     background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 49%,rgba(255,255,255,0) 100%);
 }
-.queixoCbWhiteLight {
+.ChinCbWhiteLight {
     width: 40px;
     height: 1px;
     position: absolute;
@@ -862,7 +862,7 @@
     background: -moz-linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 49%,rgba(255,255,255,0) 100%);
     background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 49%,rgba(255,255,255,0) 100%);
 }
-.queixoRWhiteLight {
+.ChinRWhiteLight {
     width: 0px;
     height: 0px;
     position: absolute;
@@ -979,7 +979,7 @@
     -moz-transform: skewX(-26deg);
     -ms-transform: skewX(-26deg);
 }
-.queixoDetailContent1 {
+.ChinDetailContent1 {
     width: 101px;
     height: 75px;
     position: absolute;
@@ -989,7 +989,7 @@
     opacity: 1;
     overflow: hidden;
 }
-.queixoDetailContent2 {
+.ChinDetailContent2 {
    width: 135px;
 
    height: 46px;
@@ -1002,7 +1002,7 @@
    opacity: 1;
     overflow: hidden;
 }
-.queixoDetailLRadius {
+.ChinDetailLRadius {
     width: 22px;
     height: 27px;
     background: #571213;
@@ -1016,7 +1016,7 @@
     -moz-transform: rotate(-31deg);
     -ms-transform: rotate(-31deg);
 }
-.queixoDetailRRadius {
+.ChinDetailRRadius {
     width: 22px;
     height: 27px;
     background: #571213;
@@ -1030,7 +1030,7 @@
     -moz-transform: rotate(31deg);
     -ms-transform: rotate(31deg);
 }
-.queixoDetailLlight {
+.ChinDetailLlight {
     width: 100px;
     height: 147px;
     background: #DBC387;
@@ -1045,7 +1045,7 @@
     -moz-transform: rotate(-20deg);
     -ms-transform: rotate(-20deg);
 }
-.queixoDetailRlight {
+.ChinDetailRlight {
     width: 100px;
     height: 147px;
     background: #CEAE4A;
@@ -1060,7 +1060,7 @@
     -moz-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
 }
-.queixoDetailLlight2 {
+.ChinDetailLlight2 {
     width: 100px;
     height: 147px;
     background: #63451E;
@@ -1075,7 +1075,7 @@
     -moz-transform: rotate(-20deg);
     -ms-transform: rotate(-20deg);
 }
-.queixoDetailRlight2 {
+.ChinDetailRlight2 {
     width: 100px;
     height: 147px;
     background: #63451E;
@@ -1090,7 +1090,7 @@
     -moz-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
 }
-.queixoDetailLlight3 {
+.ChinDetailLlight3 {
     width: 100px;
     height: 147px;
     background: #fff;
@@ -1105,7 +1105,7 @@
     -moz-transform: rotate(-20deg);
     -ms-transform: rotate(-20deg);
 }
-.queixoDetailRlight3 {
+.ChinDetailRlight3 {
     width: 100px;
     height: 147px;
     background: #fff;
@@ -1120,7 +1120,7 @@
     -moz-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
 }
-.bochecaLlight {
+.cheekLlight {
     width: 36px;
     height: 33px;
     background: -webkit-linear-gradient(to right, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 16%,rgba(255,255,255,0) 80%);
@@ -1137,7 +1137,7 @@
     -moz-transform: skewY(64deg) rotate(-7deg);
     -ms-transform: skewY(64deg) rotate(-7deg);
 }
-.bochecaRlight {
+.cheekRlight {
     width: 36px;
     height: 33px;
     background: -webkit-linear-gradient(to left, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 16%,rgba(255,255,255,0) 80%);
@@ -1154,7 +1154,7 @@
     -moz-transform: skewY(-64deg) rotate(7deg);
     -ms-transform: skewY(-64deg) rotate(7deg);
 }
-.queixoDetailContent2 .queixoDetailLlight {
+.ChinDetailContent2 .ChinDetailLlight {
     width: 100px;
     height: 147px;
     background: #DBC387;
@@ -1169,7 +1169,7 @@
     -moz-transform: rotate(-40deg);
     -ms-transform: rotate(-40deg);
 }
-.queixoDetailContent2 .queixoDetailRlight {
+.ChinDetailContent2 .ChinDetailRlight {
     width: 100px;
     height: 147px;
     background: #CEAE4A;
@@ -1184,7 +1184,7 @@
     -moz-transform: rotate(40deg);
     -ms-transform: rotate(40deg);
 }
-.queixoDetailContent2 .queixoDetailLlight2 {
+.ChinDetailContent2 .ChinDetailLlight2 {
     width: 100px;
     height: 147px;
     background: #63451E;
@@ -1199,7 +1199,7 @@
     -moz-transform: rotate(-40deg);
     -ms-transform: rotate(-40deg);
 }
-.queixoDetailContent2 .queixoDetailRlight2 {
+.ChinDetailContent2 .ChinDetailRlight2 {
     width: 100px;
     height: 147px;
     background: #63451E;
@@ -1214,7 +1214,7 @@
     -moz-transform: rotate(40deg);
     -ms-transform: rotate(40deg);
 }
-.queixoDetailContent2 .queixoDetailLlight3 {
+.ChinDetailContent2 .ChinDetailLlight3 {
     width: 100px;
     height: 147px;
     background: #fff;
@@ -1229,7 +1229,7 @@
     -moz-transform: rotate(-40deg);
     -ms-transform: rotate(-40deg);
 }
-.queixoDetailContent2 .queixoDetailRlight3 {
+.ChinDetailContent2 .ChinDetailRlight3 {
     width: 100px;
     height: 147px;
     background: #fff;
