@@ -21,6 +21,9 @@
     height: 78px;
     border-radius: 50%;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(164,23,22,1)), color-stop(100%,rgba(59,4,7,1)));
+    background: -moz-gradient(linear, left top, left bottom, color-stop(0%,rgba(164,23,22,1)), color-stop(100%,rgba(59,4,7,1)));
+    background: -o-gradient(linear, left top, left bottom, color-stop(0%,rgba(164,23,22,1)), color-stop(100%,rgba(59,4,7,1)));
+    background: gradient(linear, left top, left bottom, color-stop(0%,rgba(164,23,22,1)), color-stop(100%,rgba(59,4,7,1)));
     position: absolute;
     top: 98px;
     left: 0px;
@@ -47,6 +50,9 @@
     height: 78px;
     border-radius: 50%;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(164,23,22,1)), color-stop(100%,rgba(59,4,7,1)));
+    background: -moz-gradient(linear, left top, left bottom, color-stop(0%,rgba(164,23,22,1)), color-stop(100%,rgba(59,4,7,1)));
+    background: -o-gradient(linear, left top, left bottom, color-stop(0%,rgba(164,23,22,1)), color-stop(100%,rgba(59,4,7,1)));
+    background: gradient(linear, left top, left bottom, color-stop(0%,rgba(164,23,22,1)), color-stop(100%,rgba(59,4,7,1)));
     position: absolute;
     top: 98px;
     right: 4px;
