@@ -1,0 +1,13 @@
+.btn {
+    width: 200px;
+    float: left;
+}
+.btn input {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: #571213;
+    color: #fff;
+    margin: 0 auto;
+}
+

@@ -2,6 +2,8 @@
     <head>
         <title>Iron Man CSS 3</title>
         <link rel="stylesheet" type="text/css" href="css/css.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script type="text/javascript" src="js/js.js"></script>
     </head>
     <body>
         <div class="content">
@@ -55,6 +57,16 @@
                     <div class="eyeDetailFace2"></div>
                     <div class="eyeDetailFace4"></div>
                         <div class="eyeR">
+                            <div id="eyeRblur" class="fade-out">
+                                <div class="eyeOn"></div>
+                                <div class="eyeOn1"></div>
+                                <div class="eyeOn2"></div>
+                                <div class="eyeOn3"></div>
+                                <div class="eyeOn"></div>
+                                <div class="eyeOn1"></div>
+                                <div class="eyeOn2"></div>
+                                <div class="eyeOn3"></div>
+                            </div>
                             <div class="eyeRradius"></div>
                             <div class="eyeRradius2"></div>
                         </div>
@@ -63,6 +75,16 @@
                             <div class="eyeRradius2Shadow"></div>
                         </div>
                         <div class="eyeL">
+                         <div id="eyeLblur" class="fade-out">
+                                <div class="eyeOnL"></div>
+                                <div class="eyeOnL1"></div>
+                                <div class="eyeOnL2"></div>
+                                <div class="eyeOnL3"></div>
+                                <div class="eyeOnL"></div>
+                                <div class="eyeOnL1"></div>
+                                <div class="eyeOnL2"></div>
+                                <div class="eyeOnL3"></div>
+                            </div>
                             <div class="eyeLradius"></div>
                             <div class="eyeLradius2"></div>
                         </div>
@@ -113,8 +135,11 @@
                 </div>
 
              </div>
-             <div class="ref">
+             <!-- <div class="ref">
                 <img src="img/icon.png"/>
+                         </div> -->
+            <div class="btn">
+                <input id="myBtn" type="button" value="ON" onclick="fade(this);" />
             </div>
             </div>
     <fotter></fotter>

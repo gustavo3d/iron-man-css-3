@@ -495,6 +495,78 @@
     width: 100%;
     position: relative;
 }
+#eyeRblur {
+    -webkit-transition: opacity 0.5s ease-in; //for chrome, safari
+    -moz-transition: opacity 0.5s ease-in; //for mozilla firefox
+    -o-transition: opacity 0.5s ease-in; //for opera
+    transition: opacity 0.5s ease-in;
+}
+#eyeRblur.fade-out  {
+    opacity:0;
+}
+#eyeRblur.fade-in {
+    opacity:1;
+}
+#eyeLblur {
+    -webkit-transition: opacity 0.5s ease-in; //for chrome, safari
+    -moz-transition: opacity 0.5s ease-in; //for mozilla firefox
+    -o-transition: opacity 0.5s ease-in; //for opera
+    transition: opacity 0.5s ease-in;
+}
+#eyeLblur.fade-out  {
+    opacity:0;
+}
+#eyeLblur.fade-in {
+    opacity:1;
+}
+.eyeOn {
+width: 36px;
+height: 7px;
+transform: rotate(18deg);
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(18deg);
+-ms-transform: rotate(18deg);
+position: absolute;
+top: -9px;
+left: 0px;
+box-shadow: 0 0px 0 rgba(0,0,0,.5), 0 8px 40px rgba(245,241,224,1), 0 8px 20px rgba(255,255,255,1);
+}
+.eyeOn1 {
+width: 36px;
+height: 7px;
+transform: rotate(18deg);
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(18deg);
+-ms-transform: rotate(18deg);
+position: absolute;
+top: -7px;
+left: 0px;
+box-shadow: 0 0px 0 rgba(0,0,0,.5), 0 -10px 40px rgba(245,241,224,1), 0 -8px 20px rgba(255,255,255,1);
+}
+.eyeOn2 {
+width: 9px;
+height: 10px;
+transform: rotate(18deg);
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(18deg);
+-ms-transform: rotate(18deg);
+position: absolute;
+top: -12px;
+left: 32px;
+box-shadow: 0 0px 0 rgba(0,0,0,.5), 0 -10px 40px rgba(245,241,224,1), 0 -8px 20px rgba(255,255,255,1);
+}
+.eyeOn3 {
+width: 9px;
+height: 10px;
+transform: rotate(18deg);
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(18deg);
+-ms-transform: rotate(18deg);
+position: absolute;
+top: -12px;
+left: -2px;
+box-shadow: 0 0px 0 rgba(0,0,0,.5), 19px -14px 40px rgba(245,241,224,1), -10px -8px 20px rgba(255,255,255,1);
+}
 .eyeR {
     width: 38px;
     position: absolute;
@@ -508,6 +580,54 @@
     -webkit-transform: rotate(18deg);
     -moz-transform: rotate(18deg);
     -ms-transform: rotate(18deg);
+}
+.eyeOnL {
+width: 36px;
+height: 7px;
+transform: rotate(18deg);
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(18deg);
+-ms-transform: rotate(18deg);
+position: absolute;
+top: -9px;
+right: 0px;
+box-shadow: 0 0px 0 rgba(0,0,0,.5), 0 8px 40px rgba(245,241,224,1), 0 8px 20px rgba(255,255,255,1);
+}
+.eyeOnL1 {
+width: 36px;
+height: 7px;
+transform: rotate(18deg);
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(18deg);
+-ms-transform: rotate(18deg);
+position: absolute;
+top: -7px;
+right: 0px;
+box-shadow: 0 0px 0 rgba(0,0,0,.5), 0 -10px 40px rgba(245,241,224,1), 0 -8px 20px rgba(255,255,255,1);
+}
+.eyeOnL2 {
+width: 9px;
+height: 10px;
+transform: rotate(18deg);
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(18deg);
+-ms-transform: rotate(18deg);
+position: absolute;
+top: -12px;
+right: 32px;
+box-shadow: 0 0px 0 rgba(0,0,0,.5), 0 -10px 40px rgba(245,241,224,1), 0 -8px 20px rgba(255,255,255,1);
+}
+.eyeOnL3 {
+width: 9px;
+height: 10px;
+transform: rotate(18deg);
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(18deg);
+-ms-transform: rotate(18deg);
+position: absolute;
+top: -12px;
+right: -2px;
+box-shadow: 0 0px 0 rgba(0,0,0,.5), 19px -14px 40px rgba(245,241,224,1), -10px -8px 20px rgba(255,255,255,1);
 }
 .eyeRradius {
     width: 37px;
