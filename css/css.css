@@ -1,29 +1,143 @@
 .iron-man {
-    width: 500px;
-    height: 600px;
+    width: 200px;
+    height: 324px;
     float: left;
+    margin: 0 10px;
 }
-.ref {
-    width: 500px;
+.content {
+    width: 450px;
+    margin: 0 auto;
     height: 600px;
-    float: right;
+    position: relative;
 }
-.ref img {
-    width: 100%;
 
-}
 .head {
     width: 100%;
     height: 100%;
     position: relative;
 }
 .testa {
-    width: 100%;
-    height: 50%;
+    width: 176px;
+    height: 105px;
      background: #571213;
      border-radius: 50% 50% 0% 0%;
      position: absolute;
      top: 0px;
+     z-index: 1;
+    left: 10px;
+}
+.testa21 {
+    position: absolute;
+    top: 4px;
+    left: 65px;
+    z-index: 3;
+    border-top: 120px #571213 solid;
+    border-left: 10px transparent solid;
+    border-bottom: 0px transparent solid;
+    width: 25px;
+}
+.testa22 {
+    position: absolute;
+    top: 4px;
+    left: 100px;
+    z-index: 3;
+    border-top: 120px #571213 solid;
+    border-right: 10px transparent solid;
+    border-bottom: 0px transparent solid;
+    width: 25px;
+}
+.testaTriangulo {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 6px solid #571213;
+    position: absolute;
+    top: 124px;
+    left: 75px;
+    z-index: 3;
+}
+.testaAmarela {
+    width: 159px;
+    height: 60px;
+    background: #af8c3c;
+    border-radius: 50% 50% 0px 0px;
+    position: absolute;
+    top: 43px;
+    left: 20px;
+    z-index: 2;
+}
+.rostoAmarela1 {
+    width: 159px;
+    height: 50px;
+    background: #af8c3c;
+    position: absolute;
+    left: 20px;
+    top: 103px;
+    z-index: 2;
+}
+.rostoAmarela2 {
+    width: 159px;
+    position: absolute;
+    left: 12px;
+    top: 153px;
+    border-bottom: 34px #af8c3c solid;
+    border-left: 8px transparent solid;
+    border-right: 6px transparent solid;
+    z-index: 2;
+}
+
+.rostoAmarela3 {
+    width: 93px;
+    position: absolute;
+    left: 12px;
+    top: 187px;
+    border-top: 80px #af8c3c solid;
+    border-left: 40px transparent solid;
+    border-right: 40px transparent solid;
+    z-index: 2;
+}
+.rostoAmarela4 {
+    width: 93px;
+    position: absolute;
+    left: 48px;
+    top: 267px;
+    border-bottom: 13px #af8c3c solid;
+    border-left: 4px transparent solid;
+    border-right: 4px transparent solid;
+    z-index: 2;
+}
+.rostoAmarela5 {
+    width: 81px;
+    position: absolute;
+    left: 48px;
+    top: 280px;
+    border-top: 20px #af8c3c solid;
+    border-left: 10px transparent solid;
+    border-right: 10px transparent solid;
+    z-index: 2;
+}
+.rosto1 {
+    width: 172px;
+    height: 0;
+    position: absolute;
+    top: 105px;
+    border-top: 81px #571213 solid;
+    border-left: 2px transparent solid;
+    border-right: 2px transparent solid;
+    left: 10px;
+    z-index: 1;
+}
+.rosto2 {
+    width: 168px;
+    height: 0;
+    position: absolute;
+    top: 186px;
+    border-top: 69px #571213 solid;
+    border-left: 2px transparent solid;
+    border-right: 2px transparent solid;
+    left: 12px;
+    z-index: 1;
 }
 .testaAmarela {
     width: 90%;
@@ -43,9 +157,25 @@
 
 }
 .queixo {
-    width: 100%;
-    height: 50%;
+    width: 82px;
     position: absolute;
-    top: 50%;
-    background: #571213;
+    top: 255px;
+    border-top: 64px #571213 solid;
+    border-left: 42px transparent solid;
+    border-right: 44px transparent solid;
+    left: 14px;
+    z-index: 1;
+}
+.ref {
+    width: 200px;
+    height: 485px;
+    float: left;
+    margin: 0 10px;
+    position: absolute;
+    z-index: 1000;
+    left: 210px;
+}
+.ref img {
+    width: 100%;
+    opacity: .5;
 }
