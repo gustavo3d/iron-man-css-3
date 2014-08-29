@@ -60,31 +60,34 @@
 .testaAmarela {
     width: 159px;
     height: 60px;
-    background: #af8c3c;
+    background: #D3BA54;
     border-radius: 50% 50% 0px 0px;
     position: absolute;
     top: 43px;
     left: 20px;
     z-index: 2;
+    overflow: hidden;
 }
 .rostoAmarela1 {
     width: 159px;
     height: 50px;
-    background: #af8c3c;
+    background: #D3BA54;
     position: absolute;
     left: 20px;
     top: 103px;
     z-index: 2;
+    overflow: hidden;
 }
 .rostoAmarela2 {
     width: 159px;
     position: absolute;
     left: 12px;
     top: 153px;
-    border-bottom: 34px #af8c3c solid;
+    border-bottom: 34px #D3BA54 solid;
     border-left: 8px transparent solid;
     border-right: 6px transparent solid;
     z-index: 2;
+    overflow: hidden;
 }
 
 .rostoAmarela3 {
@@ -92,30 +95,33 @@
     position: absolute;
     left: 12px;
     top: 187px;
-    border-top: 80px #af8c3c solid;
+    border-top: 80px #D3BA54 solid;
     border-left: 40px transparent solid;
     border-right: 40px transparent solid;
     z-index: 2;
+    overflow: hidden;
 }
 .rostoAmarela4 {
     width: 93px;
     position: absolute;
     left: 48px;
     top: 267px;
-    border-bottom: 13px #af8c3c solid;
+    border-bottom: 13px #D3BA54 solid;
     border-left: 4px transparent solid;
     border-right: 4px transparent solid;
     z-index: 2;
+    overflow: hidden;
 }
 .rostoAmarela5 {
     width: 81px;
     position: absolute;
     left: 48px;
     top: 280px;
-    border-top: 20px #af8c3c solid;
+    border-top: 20px #D3BA54 solid;
     border-left: 10px transparent solid;
     border-right: 10px transparent solid;
     z-index: 2;
+    overflow: hidden;
 }
 .rosto1 {
     width: 172px;
@@ -141,14 +147,64 @@
 }
 
 .queixo {
-    width: 82px;
+    width: 80px;
     position: absolute;
     top: 255px;
     border-top: 64px #571213 solid;
-    border-left: 42px transparent solid;
+    border-left: 44px transparent solid;
     border-right: 44px transparent solid;
     left: 14px;
     z-index: 1;
+}
+.queixoDetail {
+    width: 51px;
+    position: absolute;
+    top: 296px;
+    left: 74px;
+    z-index: 3;
+    height: 15px;
+    background: #571213;
+}
+.queixoDetail2 {
+    width: 14px;
+    position: absolute;
+    top: 293px;
+    left: 91px;
+    z-index: 3;
+    border-bottom: 3px #571213 solid;
+    border-left: 2px transparent solid;
+    border-right: 2px transparent solid;
+}
+.queixoDetail3 {
+    width: 20px;
+    position: absolute;
+    top: 298px;
+    left: 58px;
+    z-index: 3;
+    height: 10px;
+    background: #571213;
+    transform: rotate(-14deg);
+}
+
+.queixoDetail4 {
+    width: 20px;
+    position: absolute;
+    top: 298px;
+    right: 58px;
+    z-index: 3;
+    height: 10px;
+    background: #571213;
+    transform: rotate(14deg);
+}
+.queixoRadius {
+    width: 80px;
+    position: absolute;
+    top: 309px;
+    left: 58px;
+    z-index: 1;
+    height: 15px;
+    background: #571213;
+    border-radius: 50% /42%;
 }
 .eyes {
     width: 100%;
@@ -159,7 +215,7 @@
     position: absolute;
     top: 175px;
     left: 27px;
-    z-index: 4;
+    z-index: 8;
     transform: rotate(18deg);
     border-left: 11px transparent solid;
     border-right: 0px transparent solid;
@@ -185,12 +241,43 @@
     transform: rotate(-6deg);
     left: 6px;
 }
+.eyeRShadow {
+    width: 38px;
+    position: absolute;
+    top: 177px;
+    left: 28px;
+    z-index: 7;
+    transform: rotate(18deg);
+    border-left: 11px transparent solid;
+    border-right: 0px transparent solid;
+    border-top: 12px #000 solid;
+}
+.eyeRradiusShadow {
+    width: 37px;
+    height: 10px;
+    border-radius: 0px 0px 0px 23px;
+    background: #000;
+    position: absolute;
+    top: -7px;
+    transform: rotate(-10deg);
+    left: -1px;
+}
+.eyeRradius2Shadow {
+    width: 37px;
+    height: 14px;
+    border-radius: 0px 14px 17px 0px;
+    background: #000;
+    position: absolute;
+    top: -13px;
+    transform: rotate(-6deg);
+    left: 6px;
+}
 .eyeL {
     width: 38px;
     position: absolute;
     top: 175px;
     right: 27px;
-    z-index: 4;
+    z-index: 8;
     transform: rotate(-18deg);
     border-left: 0px transparent solid;
     border-right: 11px transparent solid;
@@ -216,6 +303,297 @@
     transform: rotate(6deg);
     right: 6px;
 }
+.eyeLShadow {
+    width: 38px;
+    position: absolute;
+    top: 177px;
+    right: 28px;
+    z-index: 7;
+    transform: rotate(-18deg);
+    border-left: 0px transparent solid;
+    border-right: 11px transparent solid;
+    border-top: 12px #000 solid;
+}
+.eyeLradiusShadow {
+    width: 37px;
+    height: 10px;
+    border-radius: 0px 0px 23px 0px;
+    background: #000;
+    position: absolute;
+    top: -7px;
+    transform: rotate(10deg);
+    right: -1px;
+}
+.eyeLradius2Shadow {
+    width: 37px;
+    height: 14px;
+    border-radius: 14px 0px 0px 17px;
+    background: #000;
+    position: absolute;
+    top: -13px;
+    transform: rotate(6deg);
+    right: 6px;
+}
+.eyeDetailFace {
+    background: #fff;
+    width: 140px;
+    height: 45px;
+    position: absolute;
+    z-index: 7;
+    top: 137px;
+    left: 34px;
+    border-radius: 50% / 50%;
+    opacity: 0.2;
+
+}
+.eyeDetailFace1 {
+    background: #D3BA54;
+    width: 145px;
+    height: 45px;
+    position: absolute;
+    z-index: 8;
+    top: 134px;
+    left: 32px;
+    border-radius: 50% / 40%;
+
+}
+.eyeDetailFace3 {
+    background: #fff;
+    width: 140px;
+    height: 45px;
+    position: absolute;
+    z-index: 8;
+    top: 135px;
+    left: 34px;
+    border-radius: 50% / 40%;
+    opacity: 0.5;
+
+}
+.eyeDetailFace2 {
+    background: #000;
+    width: 119px;
+    height: 45px;
+    position: absolute;
+    z-index: 5;
+    top: 145px;
+    left: 43px;
+    border-radius: 50% / 50%;
+    opacity: 1;
+
+}
+.rostoLight {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(ellipse at center, rgba(104,73,29,0.5) 0%,rgba(106,75,31,0.5) 1%,rgba(255,255,255,0) 80%);
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    z-index: 3;
+}
+.rostoLight1 {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 1%,rgba(255,255,255,0) 80%);
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    z-index: 3;
+} 
+.eyeDetailFace4 {
+    background: #BEA74B;
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    z-index: 5;
+    top: 143px;
+    left: 40px;
+    border-radius: 50% / 50%;
+    opacity:1;
+
+}
+.lineMouthL {
+    width: 22px;
+    border-top: 2px #000 solid;
+    transform: rotate(58deg);
+    position: absolute;
+    top: 274px;
+    left: 47px;
+    z-index: 5;
+}
+.lineMouthL2 {
+    width: 12px;
+    border-top: 2px #000 solid;
+    transform: rotate(-50deg);
+    position: absolute;
+    top: 278px;
+    left: 61px;
+    z-index: 5;
+}
+.lineMouthC {
+    width: 60px;
+    border-top: 2px #000 solid;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 274px;
+    left: 70px;
+    z-index: 5;
+    /* box-shadow: 0px 5px 1px #888888; */
+}
+.lineMouthR {
+    width: 22px;
+    border-top: 2px #000 solid;
+    transform: rotate(-58deg);
+    position: absolute;
+    top: 274px;
+    right: 47px;
+    z-index: 5;
+}
+.lineMouthR2 {
+    width: 12px;
+    border-top: 2px #000 solid;
+    transform: rotate(50deg);
+    position: absolute;
+    top: 278px;
+    right: 61px;
+    z-index: 5;
+}
+/* .queixoLight {
+    width: 40px;
+    border-top: 30px transparent solid;
+    border-left: 8px transparent solid;
+    border-right: 8px transparent solid;
+    z-index: 5;
+    position: absolute;
+    top: 277px;
+    left: 71px;
+    overflow: hidden;
+     box-shadow: 0px 5px 1px #888888 ;
+} */
+.queixoLWhiteLight {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 292px;
+    left: 61px;
+    z-index: 5;
+    border-left: 35px transparent solid;
+    border-right: 0px transparent solid;
+    border-top: 2px #fff solid;
+    transform: rotate(256deg);
+    opacity: 0.2;
+}
+.queixoCtWhiteLight {
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    top: 276px;
+    left: 75px;
+    z-index: 5;
+    transform: rotate(0deg);
+    opacity: 0.3;
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 49%,rgba(255,255,255,0) 100%);
+}
+.queixoCbWhiteLight {
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    top: 306px;
+    left: 80px;
+    z-index: 5;
+    transform: rotate(0deg);
+    opacity: 0.2;
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 49%,rgba(255,255,255,0) 100%);
+}
+.queixoRWhiteLight {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 292px;
+    right: 61px;
+    z-index: 5;
+    border-left: 0px transparent solid;
+    border-right: 35px transparent solid;
+    border-top: 2px #fff solid;
+    transform: rotate(-256deg);
+    opacity: 0.2;
+}
+.faceLight1 {
+    width: 50px;
+    height: 207px;
+    border-radius: 50% / 50%;
+    background: #fff;
+    position: absolute;
+    top: 9px;
+    left: -37px;
+    z-index: 12;
+    opacity: 0.1;
+}
+.faceLightR1 {
+    width: 50px;
+    height: 207px;
+    border-radius: 50% / 50%;
+    background: #C9A241;
+    position: absolute;
+    top: 9px;
+    right: -37px;
+    z-index: 12;
+    opacity: 0.5;
+}
+.faceLight2 {
+    width: 50px;
+    height: 207px;
+    border-radius: 50% / 50%;
+    background: #fff;
+    position: absolute;
+    top: -57px;
+    left: -38;
+    z-index: 12;
+    opacity: 0.1;
+}
+.faceLightR2 {
+    width: 50px;
+    height: 207px;
+    border-radius: 50% / 50%;
+    background: #C9A241;
+    position: absolute;
+    top: -57px;
+    right: -38;
+    z-index: 12;
+    opacity: 0.5;
+}
+.faceLight3 {
+    width: 12px;
+    height: 30px;
+    background: #fff;
+    position: absolute;
+    top: 153px;
+    left: 16px;
+    z-index: 12;
+    opacity: 0.1;
+    transform: skewX(-14deg);
+}
+.bochecaLlight {
+    width: 36px;
+    height: 33px;
+    background: linear-gradient(to right, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 16%,rgba(255,255,255,0) 80%);
+    position: absolute;
+    top: 246px;
+    left: 19px;
+    transform: skewY(64deg) rotate(-7deg);
+    z-index: 6;
+    opacity: 0.5;
+}
+.bochecaRlight {
+    width: 36px;
+    height: 33px;
+    background: linear-gradient(to left, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.1) 16%,rgba(255,255,255,0) 80%);
+    position: absolute;
+    top: 246px;
+    right: 22px;
+    transform: skewY(-64deg) rotate(7deg);
+    z-index: 6;
+    opacity: 0.5;
+}
 .ref {
     width: 200px;
     height: 485px;
@@ -223,7 +601,7 @@
     margin: 0 10px;
     position: absolute;
     z-index: 1000;
-    left: 210px;
+    left: 200px;
 }
 .ref img {
     width: 100%;
