@@ -27,8 +27,14 @@
     position: absolute;
     top: 84px;
     background: linear-gradient(to bottom, rgba(87,18,19,1) 20%,rgba(61,1,1,1) 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(87,18,19,1) 20%,rgba(61,1,1,1) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(87,18,19,1) 20%,rgba(61,1,1,1) 100%);
+    background: -o-linear-gradient(to bottom, rgba(87,18,19,1) 20%,rgba(61,1,1,1) 100%);
     height: 197px;
     transform: skewX(34deg);
+    -webkit-transform: skewX(34deg);
+    -moz-transform: skewX(34deg);
+    -ms-transform: skewX(34deg);
     left: 69px;
     z-index: 2;
 }
@@ -38,8 +44,14 @@
     position: absolute;
     top: 84px;
     background: linear-gradient(to bottom, rgba(87,18,19,1) 0%,rgba(61,1,1,1) 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(87,18,19,1) 0%,rgba(61,1,1,1) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(87,18,19,1) 0%,rgba(61,1,1,1) 100%);
+    background: -o-linear-gradient(to bottom, rgba(87,18,19,1) 0%,rgba(61,1,1,1) 100%);
     height: 197px;
     transform: skewX(-34deg);
+    -webkit-transform: skewX(-34deg);
+    -moz-transform: skewX(-34deg);
+    -ms-transform: skewX(-34deg);
     right: 69px;
     z-index: 2;
 }
@@ -58,6 +70,9 @@
     height: 155px;
     border-radius: 90px;
     background: linear-gradient(to bottom, rgba(61,1,1,1) 0%,rgba(109,8,8,1) 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(61,1,1,1) 0%,rgba(109,8,8,1) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(61,1,1,1) 0%,rgba(109,8,8,1) 100%);
+    background: -o-linear-gradient(to bottom, rgba(61,1,1,1) 0%,rgba(109,8,8,1) 100%);
     position: absolute;
     top: 70px;
     left: 138px;
@@ -68,6 +83,9 @@
     height: 120px;
     border-radius: 90px;
     background: linear-gradient(to bottom, rgba(109,8,8,1) 0%,rgba(61,1,1,1) 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(109,8,8,1) 0%,rgba(61,1,1,1) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(109,8,8,1) 0%,rgba(61,1,1,1) 100%);
+    background: -o-linear-gradient(to bottom, rgba(109,8,8,1) 0%,rgba(61,1,1,1) 100%);
     position: absolute;
     top: 90px;
     left: 155px;
@@ -315,6 +333,9 @@
     z-index: 4;
     height: 39px;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.3)), color-stop(80%,rgba(255,255,255,0)));
+    background: -moz-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.3)), color-stop(80%,rgba(255,255,255,0)));
+    background: -o-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.3)), color-stop(80%,rgba(255,255,255,0)));
+    background: gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.3)), color-stop(80%,rgba(255,255,255,0)));
     border-radius: 50% /20%;
 }
 .Forehead21 {
@@ -1442,7 +1463,6 @@ box-shadow: 0 0px 0 rgba(0,0,0,.5), 19px -14px 40px rgba(245,241,224,1), -10px -
 .reactor {
     width: 222px;
     height: 226px;
-    /* background: red; */
     position: absolute;
     top: 100px;
     left: 15px;
@@ -1453,9 +1473,10 @@ box-shadow: 0 0px 0 rgba(0,0,0,.5), 19px -14px 40px rgba(245,241,224,1), -10px -
 .reactorLight {
     width: 300px;
     height: 300px;
-    /* background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 65%);
-     */
     background: radial-gradient(ellipse at center, rgba(181,219,226,0.5) 0%,rgba(255,255,255,0) 69%); 
+    background: -webkit-radial-gradient(ellipse at center, rgba(181,219,226,0.5) 0%,rgba(255,255,255,0) 69%); 
+    background: -moz-radial-gradient(ellipse at center, rgba(181,219,226,0.5) 0%,rgba(255,255,255,0) 69%); 
+    background: -o-radial-gradient(ellipse at center, rgba(181,219,226,0.5) 0%,rgba(255,255,255,0) 69%); 
     position: absolute;
     top: 65px;
     left: -27px;
@@ -1467,6 +1488,9 @@ box-shadow: 0 0px 0 rgba(0,0,0,.5), 19px -14px 40px rgba(245,241,224,1), -10px -
     width: 450px;
     height: 450px;
     background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 25%,rgba(255,255,256,0) 60%);
+    background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 25%,rgba(255,255,256,0) 60%);
+    background: -moz-radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 25%,rgba(255,255,256,0) 60%);
+    background: -o-radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 25%,rgba(255,255,256,0) 60%);
     position: absolute;
     top: -16px;
     left: -102px;
@@ -1486,6 +1510,9 @@ box-shadow: 0 0px 0 rgba(0,0,0,.5), 19px -14px 40px rgba(245,241,224,1), -10px -
     left: -68px;
     position: absolute;
     transform: rotate(-120deg);
+    -webkit-transform: rotate(-120deg);
+    -moz-transform: rotate(-120deg);
+    -ms-transform: rotate(-120deg);
     top: 127px;
 }
 .reactorL {
@@ -1494,6 +1521,9 @@ box-shadow: 0 0px 0 rgba(0,0,0,.5), 19px -14px 40px rgba(245,241,224,1), -10px -
     right: -65px;
     position: absolute;
     transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
     top: 141px;
 }
 .reactorTop1 {
@@ -1541,6 +1571,10 @@ box-shadow: 0 0px 0 rgba(0,0,0,.5), 19px -14px 40px rgba(245,241,224,1), -10px -
     top: 124px;
     left: -10px;
     transform: rotate(-120deg);
+    transform: rotate(-120deg);
+    -webkit-transform: rotate(-120deg);
+    -moz-transform: rotate(-120deg);
+    -ms-transform: rotate(-120deg);
 }
 .reactorTriangleL {
     width: 99px;
@@ -1551,6 +1585,9 @@ box-shadow: 0 0px 0 rgba(0,0,0,.5), 19px -14px 40px rgba(245,241,224,1), -10px -
     top: 124px;
     right: -10px;
     transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
 }
 .reactorTriangleC {
     width: 0;
