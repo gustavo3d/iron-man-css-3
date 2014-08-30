@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'IRONMANOFWAR2NCVRegular';
+    src: url('iron-man.eot');
+    src: url('iron-man.eot') format('embedded-opentype'),
+         url('iron-man.woff2') format('woff2'),
+         url('iron-man.woff') format('woff'),
+         url('iron-man.ttf') format('truetype'),
+         url('iron-man.svg#IRONMANOFWAR2NCVRegular') format('svg');
+}

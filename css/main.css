@@ -1,3 +1,22 @@
+body {
+	background: ##000000;
+	background-image: url("../img/zenbg-1.png"), url("../img/zenbg-2.png");
+	background-repeat: repeat-x, repeat;
+}
+@font-face {
+    font-family: 'iron-man';
+    src: url('../fonts/iron-man.eot');
+    src: url('../fonts/iron-man.eot') format('embedded-opentype'),
+         url('../fonts/iron-man.woff2') format('woff2'),
+         url('../fonts/iron-man.woff') format('woff'),
+         url('../fonts/iron-man.ttf') format('truetype'),
+         url('../fonts/iron-man.svg#IRONMANOFWAR2NCVRegular') format('svg');
+}
+body {
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+}
 .btn {
     width: 200px;
     float: left;
@@ -9,5 +28,76 @@
     background: #571213;
     color: #fff;
     margin: 0 auto;
+}
+.content {
+    padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+    position: relative;
+}
+.col-1 {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.col-2 {
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.center {
+	text-align: center;
+}
+.title {
+	font-family: 'iron-man';
+	color: #5A0802;
+	font-size: 8em;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to bottom, rgba(76,3,0,1) 0%,rgba(175,14,14,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;	
+}
+.titleShadow {
+	font-family: 'iron-man';
+	color: #5A0802;
+	font-size: 8em;
+	margin: 0;
+	padding: 0;
+	text-shadow: 4px 4px 0 #B8A25D , -4px -3px 0 #816932;
+}
+.ref {
+    width: 300px;
+	height: 485px;
+	margin: 0 10px;
+	z-index: 1000;
+	left: 0px;
+}
+.ref img {
+    width: 100%;
+    opacity: 0.5;
+}
+@media screen and (min-width: 1200px) {
+.content {
+width: 1170px;
+}}
+@media screen and (min-width: 992px) {
+.content {
+width: 970px;
+}}
+@media screen and (max-width: 768px, min-width: 0px) {
+.content {
+width: 750px;
+}
+.col-2 {
+	width: 100%;
+	float: left;
+}
+}
+@media screen and (min-width: 768px) {
+.content {
+width: 750px;
+}
 }
 
